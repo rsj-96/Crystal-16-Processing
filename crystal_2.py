@@ -14,7 +14,8 @@ with st.expander("How to Use 📝"):
                 3. Select cycles to be used for solubility curve.
                 4. Define temperature range.
                 5. Add curve title (if required).
-                6. Click "Generate Solubility Curve" and a Solubility Curve will be generated for you.
+                6. Define Temperatures for Theoretical Yield Calculation
+                7. Click "Generate Solubility Curve and Calculate Theoretical Yield" and a Solubility Curve and Theoretical Yield will be generated for you.
                 + Any questions speak with RJ""")
 
 
@@ -366,4 +367,5 @@ if file:
             
             
             
+
             
