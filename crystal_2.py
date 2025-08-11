@@ -19,7 +19,7 @@ with st.expander("How to Use 📝"):
                 + Any questions speak with RJ""")
 
 
-file = st.file_uploader("Choose a '.csv' File", type = ['xlsx', '.csv']) # streamlit file uploader where the excel type is specified
+file = st.file_uploader("Choose a '.csv' File", type = ['.csv']) # streamlit file uploader where the excel type is specified
 if file:
     og = pd.read_csv(file)  # reads the file into the dataframe using pandas
     
@@ -369,3 +369,4 @@ if file:
             
 
             
+
